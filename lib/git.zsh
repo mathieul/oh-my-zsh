@@ -88,4 +88,3 @@ function git_time_prompt_info {
     local SINCE_LAST_COMMIT="${COLOR}$(minutes_since_last_commit)m%{$reset_color%}"
     echo $SINCE_LAST_COMMIT
 }
-
